@@ -12,7 +12,7 @@ def crew
 end
 
 def greet_crew(arr)
-  return arr.each { |crew_member| "Hello " + crew_member + "." }
+  return arr.each { |x| "Hello " + x + "." }
 end
 
 def engage
