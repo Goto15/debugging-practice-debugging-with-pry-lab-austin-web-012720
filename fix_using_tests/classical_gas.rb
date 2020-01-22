@@ -12,6 +12,8 @@ class GasStation
   end
   
   def protien
+    @protien
+  end
 
 end
 
