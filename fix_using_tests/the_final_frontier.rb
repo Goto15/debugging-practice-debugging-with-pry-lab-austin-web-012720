@@ -12,11 +12,9 @@ def crew
 end
 
 def greet_crew(arr)
-  for each in arr 
-    each = "Hello #{each}."
-    puts each
+  for i in 0...arr 
+    arr[i] = "Hello #{arr[i]}."
   end
-  #arr.each { |x| "Hello #{x}." }
   puts arr
   arr
 end
