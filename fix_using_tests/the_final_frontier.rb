@@ -12,7 +12,7 @@ def crew
 end
 
 def greet_crew(arr)
-  for i in 0...arr 
+  for i in 0...arr.length 
     arr[i] = "Hello #{arr[i]}."
   end
   puts arr
