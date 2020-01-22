@@ -17,6 +17,7 @@ def greet_crew(arr)
     puts each
   end
   #arr.each { |x| "Hello #{x}." }
+  puts arr
   arr
 end
 
